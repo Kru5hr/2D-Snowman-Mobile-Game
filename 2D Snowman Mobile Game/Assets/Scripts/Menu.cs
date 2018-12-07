@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Menu : MonoBehaviour
 {
-    public class LoadOnClick : MonoBehaviour
+    public void playGame()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 
-        public GameObject loadingImage;
-
-        public void LoadScene(int level)
-        {
-            loadingImage.SetActive(true);
-            Application.LoadLevel(level);
-        }
+    public void exitGame()
+    {
+        Application.Quit();
+        Debug.Log("Exit Game");
     }
 }
