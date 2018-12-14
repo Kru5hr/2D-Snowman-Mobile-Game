@@ -5,14 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public void playGame()
+    public void loadLevel(string level)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    public void exitGame()
-    {
-        Application.Quit();
-        Debug.Log("Exit Game");
+        SceneManager.LoadScene(level);
     }
 }
