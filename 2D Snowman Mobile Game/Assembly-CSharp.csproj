@@ -63,10 +63,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\ForceSwipe.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\ScreenBoundaries.cs" />
     <Compile Include="Assets\Scripts\SmoothMoveSwipe.cs" />
+    <Compile Include="Assets\Scripts\snowflakeScore.cs" />
     <Compile Include="Assets\Scripts\TouchDrag.cs" />
     <Compile Include="Assets\Scripts\TouchSwipe.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
