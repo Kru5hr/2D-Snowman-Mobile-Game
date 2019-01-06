@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class snowflakeScore : MonoBehaviour {
+public class snowflakeScore : MonoBehaviour
+{
 
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -11,8 +13,9 @@ public class snowflakeScore : MonoBehaviour {
             HealthBar.health -= 10f;
             Destroy(gameObject);
         }
-        else
+        else if (col.gameObject.name == "player_snowman")
         {
+            textScore.scoreAmount += 1;
             Destroy(gameObject);
         }
     }
