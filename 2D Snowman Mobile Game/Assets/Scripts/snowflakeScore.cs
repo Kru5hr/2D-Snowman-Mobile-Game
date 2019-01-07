@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class snowflakeScore : MonoBehaviour
 {
-
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "ground")

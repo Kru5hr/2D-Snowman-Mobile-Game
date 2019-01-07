@@ -5,18 +5,19 @@ using UnityEngine.UI;
 
 public class textScore : MonoBehaviour
 {
-    Text txt_Score;
+    private Text text;
     public static int scoreAmount;
 
 	// Use this for initialization
 	void Start ()
     {
-        txt_Score = GetComponent<Text>();
+        text = GetComponent<Text>();
+        scoreAmount = 0;
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        txt_Score.text = "Score: " + scoreAmount;
+        text.text = scoreAmount.ToString();
 	}
 }
