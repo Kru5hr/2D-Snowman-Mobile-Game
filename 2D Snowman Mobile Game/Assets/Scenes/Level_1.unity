@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 1077087499}
   - component: {fileID: 1077087501}
   - component: {fileID: 1077087500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2273,7 +2273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e4cedc3f6f7784e8a1950adcadf02d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwForce: 0.03
+  throwForce: 0.1
 --- !u!61 &2053147481
 BoxCollider2D:
   m_ObjectHideFlags: 0
