@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\ScreenBoundaries.cs" />
     <Compile Include="Assets\Scripts\SmoothMoveSwipe.cs" />
+    <Compile Include="Assets\Scripts\snowflakeManager.cs" />
     <Compile Include="Assets\Scripts\snowflakeScore.cs" />
     <Compile Include="Assets\Scripts\textScore.cs" />
     <Compile Include="Assets\Scripts\TouchDrag.cs" />
