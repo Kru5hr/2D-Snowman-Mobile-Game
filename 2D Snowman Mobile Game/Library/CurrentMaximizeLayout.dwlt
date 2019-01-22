@@ -19,12 +19,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1366
     height: 635
   m_MinSize: {x: 709, y: 471}
   m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
   controlID: 296
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 709, y: 471}
+  m_MaxSize: {x: 18004, y: 14021}
+  vertical: 0
+  controlID: 3017
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,12 +131,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 753
     height: 635
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 235
+=======
+    width: 1059
+    height: 947
+  m_MinSize: {x: 202, y: 342}
+  m_MaxSize: {x: 4002, y: 8042}
+  vertical: 1
+  controlID: 2986
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,16 +162,24 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 753
     height: 318
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 5}
+=======
+    width: 1059
+    height: 474
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 6}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_Panes:
   - {fileID: 5}
   - {fileID: 6}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,11 +299,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 318
     width: 753
     height: 317
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    y: 474
+    width: 1059
+    height: 473
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -301,12 +335,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 753
     y: 0
+<<<<<<< HEAD
     width: 285
     height: 635
   m_MinSize: {x: 230, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
   controlID: 297
+=======
+    width: 400
+    height: 947
+  m_MinSize: {x: 230, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
+  vertical: 1
+  controlID: 3018
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,8 +366,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 285
     height: 327
+=======
+    width: 400
+    height: 487
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 10}
@@ -359,9 +407,15 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 18330000
     m_LastClickedID: 13080
     m_ExpandedIDs: 0aefffffe4f6ffff00000000e6320000
+=======
+    m_SelectedIDs: 06300000
+    m_LastClickedID: 0
+    m_ExpandedIDs: f2eefffff6f8ffffe6fbffff00000000b42f0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -447,11 +501,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scenes
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scripts
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Jake\Documents\GitHub\2D-Snowman-Mobile-Game\2D Snowman
     Mobile Game
@@ -459,9 +521,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 0a2d0000
     m_LastClickedID: 11530
     m_ExpandedIDs: 00000000e02c0000622e000000ca9a3b
+=======
+    m_SelectedIDs: f82b0000
+    m_LastClickedID: 11256
+    m_ExpandedIDs: 000000000a2a0000c42b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -489,7 +557,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e02c0000622e000000ca9a3b
+=======
+    m_ExpandedIDs: 000000000a2a0000c42b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,8 +586,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 18330000
     m_LastClickedInstanceID: 13080
+=======
+    m_SelectedInstanceIDs: 06300000
+    m_LastClickedInstanceID: 12294
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -560,8 +637,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1038
     y: 0
+<<<<<<< HEAD
     width: 328
     height: 635
+=======
+    width: 461
+    height: 947
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
