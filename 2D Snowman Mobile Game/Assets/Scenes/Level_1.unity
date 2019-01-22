@@ -740,6 +740,7 @@ CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 50fabde... added more snowflakes
 --- !u!1 &487041909
@@ -873,6 +874,8 @@ MonoBehaviour:
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
 >>>>>>> parent of 50fabde... added more snowflakes
+=======
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!1001 &490019482
 Prefab:
   m_ObjectHideFlags: 0

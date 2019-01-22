@@ -45,11 +45,17 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
+<<<<<<< HEAD
     height: 947
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
   controlID: 9
+=======
+    height: 997
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,8 +140,12 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 22
 >>>>>>> parent of 50fabde... added more snowflakes
+=======
+  controlID: 9
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,8 +176,12 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
+<<<<<<< HEAD
   controlID: 109
 >>>>>>> parent of 50fabde... added more snowflakes
+=======
+  controlID: 125
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +207,8 @@ MonoBehaviour:
 =======
     width: 1059
     height: 474
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -258,7 +272,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 23
+=======
+  controlID: 10
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -287,8 +305,13 @@ MonoBehaviour:
 =======
     width: 400
     height: 487
+<<<<<<< HEAD
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -343,8 +366,8 @@ MonoBehaviour:
     y: 0
     width: 461
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -377,8 +400,11 @@ MonoBehaviour:
     height: 501
   m_PersistentViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &13
 =======
+=======
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -572,7 +598,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: e6fbffff00000000aa2d0000ce2d0000002e0000
+=======
+    m_ExpandedIDs: 60f2ffffe6fbffff00000000b82d000082300000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,15 +664,23 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scripts
+=======
+    - Assets/Scenes
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Scenes
   m_LastFoldersGridSize: -1
 =======
   - Assets/Scripts
+=======
+  - Assets/Scenes
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_LastFoldersGridSize: 16
 >>>>>>> parent of 50fabde... added more snowflakes
   m_LastProjectPath: E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile
@@ -652,6 +690,7 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 0a2d0000
     m_LastClickedID: 11530
 =======
@@ -659,6 +698,11 @@ MonoBehaviour:
     m_LastClickedID: 11256
 >>>>>>> parent of 50fabde... added more snowflakes
     m_ExpandedIDs: 000000000a2a0000c42b0000
+=======
+    m_SelectedIDs: 3c2a0000
+    m_LastClickedID: 10812
+    m_ExpandedIDs: 000000000c2a0000c62b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
