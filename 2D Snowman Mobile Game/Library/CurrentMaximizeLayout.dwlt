@@ -33,6 +33,7 @@ MonoBehaviour:
   m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +47,9 @@ MonoBehaviour:
 >>>>>>> parent of 50fabde... added more snowflakes
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+  controlID: 3017
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
   controlID: 3017
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &2
@@ -198,6 +202,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +216,9 @@ MonoBehaviour:
 >>>>>>> parent of 50fabde... added more snowflakes
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+  controlID: 2986
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
   controlID: 2986
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &4
@@ -243,6 +251,7 @@ MonoBehaviour:
     width: 1059
     height: 474
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -258,6 +267,11 @@ MonoBehaviour:
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 6}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
@@ -299,7 +313,11 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastFramingTime: 2522.799369627698
+=======
+  lastFramingTime: 120.53941039189725
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
   lastFramingTime: 120.53941039189725
 >>>>>>> parent of c7d4cbf... added player keyboard controls
@@ -308,9 +326,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -1.3750405, y: 1.0144482, z: 117.18945}
     speed: 2
     m_Value: {x: -1.3750405, y: 1.0144482, z: 117.18945}
+=======
+    m_Target: {x: -3.8960629, y: -0.046070166, z: 43.83789}
+    speed: 2
+    m_Value: {x: -3.8960629, y: -0.046070166, z: 43.83789}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     m_Target: {x: -3.8960629, y: -0.046070166, z: 43.83789}
     speed: 2
@@ -348,9 +372,15 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 22
     speed: 2
     m_Value: 22
+=======
+    m_Target: 13.640322
+    speed: 2
+    m_Value: 13.640322
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     m_Target: 13.640322
     speed: 2
@@ -422,6 +452,7 @@ MonoBehaviour:
     width: 1059
     height: 473
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -437,6 +468,10 @@ MonoBehaviour:
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> parent of c7d4cbf... added player keyboard controls
@@ -486,6 +521,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,6 +535,9 @@ MonoBehaviour:
 >>>>>>> parent of 50fabde... added more snowflakes
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+  controlID: 3018
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
   controlID: 3018
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &9
@@ -528,6 +567,7 @@ MonoBehaviour:
     width: 400
 <<<<<<< HEAD
     height: 487
+<<<<<<< HEAD
 =======
 =======
     width: 401
@@ -540,6 +580,8 @@ MonoBehaviour:
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -607,12 +649,16 @@ MonoBehaviour:
     m_SelectedIDs: 06300000
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: e0f6ffffe6fbffff00000000a02d000062300000
 >>>>>>> parent of 50fabde... added more snowflakes
 =======
     m_ExpandedIDs: f2eefffff6f8ffffe6fbffff00000000b42f0000
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+=======
+    m_ExpandedIDs: f2eefffff6f8ffffe6fbffff00000000b42f0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -715,6 +761,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +803,13 @@ MonoBehaviour:
   - Assets/Scripts
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scripts
+>>>>>>> parent of c7d4cbf... added player keyboard controls
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Jake\Documents\GitHub\2D-Snowman-Mobile-Game\2D Snowman
     Mobile Game
@@ -763,6 +817,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -796,6 +851,11 @@ MonoBehaviour:
     m_ExpandedIDs: 000000000a2a0000c42b0000
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+=======
+    m_SelectedIDs: f82b0000
+    m_LastClickedID: 11256
+    m_ExpandedIDs: 000000000a2a0000c42b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -825,6 +885,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -846,6 +907,9 @@ MonoBehaviour:
     m_ExpandedIDs: 000000000a2a0000c42b0000
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+=======
+    m_ExpandedIDs: 000000000a2a0000c42b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -870,6 +934,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -899,6 +964,10 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 06300000
     m_LastClickedInstanceID: 12294
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+=======
+    m_SelectedInstanceIDs: 06300000
+    m_LastClickedInstanceID: 12294
+>>>>>>> parent of c7d4cbf... added player keyboard controls
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> parent of c7d4cbf... added player keyboard controls
     m_ExpandedInstanceIDs: 
@@ -951,6 +1020,7 @@ MonoBehaviour:
     width: 461
     height: 947
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -959,6 +1029,8 @@ MonoBehaviour:
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
 >>>>>>> cf1da2502909a00abd51c0e6af80a3f87afd1c42
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
