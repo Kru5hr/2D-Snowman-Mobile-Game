@@ -33,6 +33,9 @@ MonoBehaviour:
   m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
   controlID: 3017
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &2
 MonoBehaviour:
@@ -145,6 +148,9 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 2986
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &4
 MonoBehaviour:
@@ -174,6 +180,9 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
   m_Panes:
   - {fileID: 5}
@@ -311,6 +320,9 @@ MonoBehaviour:
     height: 473
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
   m_ActualView: {fileID: 2}
   m_Panes:
@@ -349,6 +361,9 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
   controlID: 3018
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!114 &9
 MonoBehaviour:
@@ -372,6 +387,9 @@ MonoBehaviour:
 =======
     width: 400
     height: 487
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -408,9 +426,15 @@ MonoBehaviour:
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 18330000
     m_LastClickedID: 13080
     m_ExpandedIDs: 0aefffffe4f6ffff00000000e6320000
+=======
+    m_SelectedIDs: 06300000
+    m_LastClickedID: 0
+    m_ExpandedIDs: f2eefffff6f8ffffe6fbffff00000000b42f0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     m_SelectedIDs: 06300000
     m_LastClickedID: 0
@@ -502,11 +526,19 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scenes
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scripts
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     - Assets/Scripts
   m_ViewMode: 1
@@ -522,9 +554,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 0a2d0000
     m_LastClickedID: 11530
     m_ExpandedIDs: 00000000e02c0000622e000000ca9a3b
+=======
+    m_SelectedIDs: f82b0000
+    m_LastClickedID: 11256
+    m_ExpandedIDs: 000000000a2a0000c42b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     m_SelectedIDs: f82b0000
     m_LastClickedID: 11256
@@ -558,7 +596,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e02c0000622e000000ca9a3b
+=======
+    m_ExpandedIDs: 000000000a2a0000c42b0000
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     m_ExpandedIDs: 000000000a2a0000c42b0000
 >>>>>>> parent of c7d4cbf... added player keyboard controls
@@ -587,8 +629,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 18330000
     m_LastClickedInstanceID: 13080
+=======
+    m_SelectedInstanceIDs: 06300000
+    m_LastClickedInstanceID: 12294
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
     m_SelectedInstanceIDs: 06300000
     m_LastClickedInstanceID: 12294
@@ -643,6 +690,9 @@ MonoBehaviour:
 =======
     width: 461
     height: 947
+<<<<<<< HEAD
+>>>>>>> parent of c7d4cbf... added player keyboard controls
+=======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}

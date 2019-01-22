@@ -738,6 +738,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 429556548}
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &487041909
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1b0c578d0ae474e9f297828fcdfa2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of c7d4cbf... added player keyboard controls
 =======
 >>>>>>> parent of c7d4cbf... added player keyboard controls
 --- !u!1001 &490019482
