@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\keyboardControls.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\ScreenBoundaries.cs" />
     <Compile Include="Assets\Scripts\SmoothMoveSwipe.cs" />
     <Compile Include="Assets\Scripts\snowflakeManager.cs" />
