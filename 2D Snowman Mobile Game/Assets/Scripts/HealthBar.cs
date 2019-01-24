@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     float maxHealth = 100f;
     public static float health;
     public GameObject GameOverMenu;
+    public GameObject PauseButton;
     
     // Use this for initialization
 	void Start ()
@@ -27,6 +28,7 @@ public class HealthBar : MonoBehaviour
         if (HealthBar.health == 0)
         {
             GameOverMenu.SetActive(true);
+            PauseButton.SetActive(false);
             Time.timeScale = 0f;
         }
 	}
