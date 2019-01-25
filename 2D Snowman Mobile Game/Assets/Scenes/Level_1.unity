@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 429556552}
   - component: {fileID: 429556551}
   - component: {fileID: 429556550}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: img_health_bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5303,8 +5303,8 @@ ParticleSystem:
   CollisionModule:
     enabled: 1
     serializedVersion: 3
-    type: 0
-    collisionMode: 0
+    type: 1
+    collisionMode: 1
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
@@ -5318,7 +5318,7 @@ ParticleSystem:
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5371,7 +5371,7 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5424,7 +5424,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5475,11 +5475,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     minKillSpeed: 0
-    maxKillSpeed: 10000
+    maxKillSpeed: 0
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 256
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -5496,7 +5496,7 @@ ParticleSystem:
     collisionShape5: {fileID: 0}
     inside: 1
     outside: 0
-    enter: 0
+    enter: 1
     exit: 0
     radiusScale: 1
   SubModule:
@@ -6681,7 +6681,7 @@ GameObject:
   - component: {fileID: 1651693353}
   - component: {fileID: 1651693355}
   - component: {fileID: 1651693354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: img_health_bar_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7108,7 +7108,7 @@ GameObject:
   - component: {fileID: 2005652982}
   - component: {fileID: 2005652983}
   - component: {fileID: 2005652984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7212,7 +7212,7 @@ GameObject:
   - component: {fileID: 2053147478}
   - component: {fileID: 2053147479}
   - component: {fileID: 2053147481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: player_snowman
   m_TagString: Player
   m_Icon: {fileID: 0}
