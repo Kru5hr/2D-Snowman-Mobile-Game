@@ -16,8 +16,13 @@ public class textScore : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	public void Update ()
     {
         text.text = scoreAmount.ToString();
+
+        if (textScore.scoreAmount == 5)
+        {
+            snowflakeManager.spawnRateTime = 0.5f;
+        }
 	}
 }

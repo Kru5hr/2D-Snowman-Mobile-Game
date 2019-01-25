@@ -7,10 +7,10 @@ public class snowflakeManager : MonoBehaviour
     public GameObject snowflake; //The snowlfake prefab to be spawned
     float randX;
     Vector2 spawnPos;
-    public float spawnRateTime = 1.5f; //How long before each spawn
-    float nextSpawn = 0f;
+    public static float spawnRateTime = 1.25f; //How long before each spawn
+    public float nextSpawn = 0f;
 
-    void Update()
+    public void Update()
     {
         snowflake.transform.localScale = transform.root.localScale;
 

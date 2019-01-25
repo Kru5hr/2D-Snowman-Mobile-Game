@@ -18,6 +18,7 @@ public class Controls : MonoBehaviour
     {
         //*************TOUCH CONTROLS*********************
 
+        //SLIDE
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) //once touch input started
         {
             touchTimeStart = Time.time;
@@ -37,6 +38,8 @@ public class Controls : MonoBehaviour
             GetComponent<Rigidbody2D>().AddForce(-direction / timeInterval * throwForce);
         }
 
+
+        //JUMP
         if (!grounded && GetComponent<Rigidbody2D>().velocity.y == 0)
         {
             grounded = true;

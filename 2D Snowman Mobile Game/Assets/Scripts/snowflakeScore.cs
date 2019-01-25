@@ -14,7 +14,7 @@ public class snowflakeScore : MonoBehaviour
         }
         else if (col.gameObject.name == "player_snowman")
         {
-            textScore.scoreAmount += 1;
+            tmpScore.scoreAmount += 1;
             Destroy(gameObject);
         }
     }

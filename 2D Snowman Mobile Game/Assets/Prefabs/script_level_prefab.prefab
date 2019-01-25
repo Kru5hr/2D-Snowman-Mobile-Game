@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4200193158870516}
   - component: {fileID: 114578256148133382}
   m_Layer: 0
-  m_Name: script_Menu_prefab
+  m_Name: script_level_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
