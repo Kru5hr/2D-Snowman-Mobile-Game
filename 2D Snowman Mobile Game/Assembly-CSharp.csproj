@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\snowflakeManager.cs" />
     <Compile Include="Assets\Scripts\snowflakeScore.cs" />
     <Compile Include="Assets\Scripts\textScore.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\tmpScore.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

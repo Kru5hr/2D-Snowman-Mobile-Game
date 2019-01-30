@@ -21,7 +21,7 @@ public class tmpScore : MonoBehaviour
     {
         tmp.text = scoreAmount.ToString();
 
-        if (textScore.scoreAmount == 5)
+        if (tmpScore.scoreAmount == 5)
         {
             snowflakeManager.spawnRateTime = 0.5f;
         }

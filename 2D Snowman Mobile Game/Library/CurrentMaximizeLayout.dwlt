@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 13922
+  controlID: 16966
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,10 +60,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -122.5
-    m_HBaseRangeMax: 122.5
-    m_VBaseRangeMin: -217.5
-    m_VBaseRangeMax: 217.5
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -384
+    m_VBaseRangeMax: 384
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -83,7 +83,7 @@ MonoBehaviour:
       y: 17
       width: 1057
       height: 435
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.56640625, y: 0.56640625}
     m_Translation: {x: 528.5, y: 217.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -91,12 +91,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -528.5
-      y: -217.5
-      width: 1057
-      height: 435
+      x: -933.07587
+      y: -384
+      width: 1866.1517
+      height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.56640625
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1057, y: 452}
@@ -124,10 +124,10 @@ MonoBehaviour:
     y: 0
     width: 1059
     height: 947
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 13880
+  controlID: 16949
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,8 +146,8 @@ MonoBehaviour:
     y: 0
     width: 1059
     height: 474
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -180,14 +180,14 @@ MonoBehaviour:
     height: 453
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 16018.993166879487
+  lastFramingTime: 4430.616142312816
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.073119745, y: 0.55649626, z: 71.48047}
+    m_Target: {x: -0.9225327, y: -1.9624397, z: 85.319336}
     speed: 2
-    m_Value: {x: 0.073119745, y: 0.55649626, z: 71.48047}
+    m_Value: {x: -0.9225327, y: -1.9624397, z: 85.319336}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -219,9 +219,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.556135
+    m_Target: 7.70306
     speed: 2
-    m_Value: 16.556135
+    m_Value: 7.70306
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -276,8 +276,8 @@ MonoBehaviour:
     y: 474
     width: 1059
     height: 473
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 13923
+  controlID: 16967
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,8 +325,8 @@ MonoBehaviour:
     y: 0
     width: 400
     height: 487
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: bc65feffd47afeff94f9ffffe6fbffff00000000382e00004c2e0000bc2e0000dc2e0000a8320000ec320000be360000
+    m_ExpandedIDs: 98f0ffffe6fbffff00000000742d0000e82f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,8 +403,8 @@ MonoBehaviour:
     y: 487
     width: 400
     height: 460
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -447,11 +447,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Textures
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile
     Game
@@ -459,9 +459,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 262b0000
-    m_LastClickedID: 11046
-    m_ExpandedIDs: 00000000102a0000
+    m_SelectedIDs: 0a2d0000
+    m_LastClickedID: 11530
+    m_ExpandedIDs: 000000000e2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -489,7 +489,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000102a0000
+    m_ExpandedIDs: 000000000e2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: a02b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
