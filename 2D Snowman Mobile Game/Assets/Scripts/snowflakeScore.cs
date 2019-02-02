@@ -5,27 +5,19 @@ using UnityEngine.UI;
 
 public class snowflakeScore : MonoBehaviour
 {
-    ParticleSystem ps;
-
-    void Start()
+    void OnParticleCollision(GameObject col)
     {
-        ps = GetComponent<ParticleSystem>();
 
-        var collision = ps.collision;
-    }
-
-    private void OnTriggerEnter2D(Collider2D col)
-    {
         if (col.gameObject.name == "ground")
         {
             HealthBar.health -= 10f;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
         else if (col.gameObject.name == "player_snowman")
         {
             tmpScore.scoreAmount += 1;
             HealthBar.health += 10f;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

@@ -686,7 +686,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1703,6 +1703,11 @@ Transform:
   m_Father: {fileID: 1596725497}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1007341188 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198289717329003788, guid: e8cbbbe022795d044871bca5c6e8cc6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1264358668}
 --- !u!1 &1077087497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,6 +2162,31 @@ Prefab:
       objectReference: {fileID: 2005652982}
     - target: {fileID: 1081147549989548, guid: e8cbbbe022795d044871bca5c6e8cc6a, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114218275319227272, guid: e8cbbbe022795d044871bca5c6e8cc6a,
+        type: 2}
+      propertyPath: part
+      value: 
+      objectReference: {fileID: 1007341188}
+    - target: {fileID: 198289717329003788, guid: e8cbbbe022795d044871bca5c6e8cc6a,
+        type: 2}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 198289717329003788, guid: e8cbbbe022795d044871bca5c6e8cc6a,
+        type: 2}
+      propertyPath: TriggerModule.enter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198289717329003788, guid: e8cbbbe022795d044871bca5c6e8cc6a,
+        type: 2}
+      propertyPath: TriggerModule.inside
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198289717329003788, guid: e8cbbbe022795d044871bca5c6e8cc6a,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
