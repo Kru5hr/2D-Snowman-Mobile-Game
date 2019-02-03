@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class snowflakeScore : MonoBehaviour
 {
-    void OnParticleCollision(GameObject col)
+    public void OnParticleCollision(GameObject col)
     {
 
         if (col.gameObject.name == "ground")
