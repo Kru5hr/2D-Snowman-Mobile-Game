@@ -25,6 +25,11 @@ public class HealthBar : MonoBehaviour
     {
         healthBar.fillAmount = health / maxHealth;
 
+        if (HealthBar.health > 100)
+        {
+            HealthBar.health = 100;
+        }
+
         if (HealthBar.health == 0)
         {
             GameOverMenu.SetActive(true);
