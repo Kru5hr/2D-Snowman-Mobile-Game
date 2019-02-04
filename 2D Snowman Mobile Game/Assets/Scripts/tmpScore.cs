@@ -7,6 +7,7 @@ using TMPro;
 public class tmpScore : MonoBehaviour
 {
     public TMP_Text score;
+    public TMP_Text lastScore;
     public TMP_Text hscore;
     public static int scoreAmount;
 
@@ -22,12 +23,15 @@ public class tmpScore : MonoBehaviour
 	public void Update ()
     {
         score.text = scoreAmount.ToString();
+        lastScore.text = scoreAmount.ToString();
 
         if (scoreAmount > PlayerPrefs.GetInt("Highscore", 0))
         {
             PlayerPrefs.SetInt("Highscore", scoreAmount);
             hscore.text = scoreAmount.ToString();
         }
+
+
         
         //if (tmpScore.scoreAmount == 5)
         //{
