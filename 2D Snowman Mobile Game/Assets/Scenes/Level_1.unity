@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 76306998}
   - component: {fileID: 76307000}
   - component: {fileID: 76306999}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 79380724}
   - component: {fileID: 79380723}
   - component: {fileID: 79380722}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: btn_Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 422500657}
   - component: {fileID: 422500656}
   - component: {fileID: 422500655}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: btn_Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,14 +1154,14 @@ RectTransform:
   m_GameObject: {fileID: 429556548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002836, y: 1.0016352, z: 1.0001138}
+  m_LocalScale: {x: 3.7861495, y: 3.7912655, z: 3.7855067}
   m_Children: []
   m_Father: {fileID: 1651693353}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.00009996096}
+  m_AnchoredPosition: {x: -0.0000022772, y: -153}
   m_SizeDelta: {x: 100, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429556550
@@ -1222,7 +1222,7 @@ GameObject:
   - component: {fileID: 510405975}
   - component: {fileID: 510405977}
   - component: {fileID: 510405976}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 558752942}
   - component: {fileID: 558752944}
   - component: {fileID: 558752943}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1445,7 +1445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 562408911}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameOverMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1690,7 +1690,7 @@ GameObject:
   - component: {fileID: 718269405}
   - component: {fileID: 718269407}
   - component: {fileID: 718269406}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1845,7 +1845,7 @@ GameObject:
   - component: {fileID: 812571164}
   - component: {fileID: 812571166}
   - component: {fileID: 812571165}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_scoreHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2740,7 +2740,7 @@ GameObject:
   - component: {fileID: 1373966890}
   - component: {fileID: 1373966892}
   - component: {fileID: 1373966891}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_bestHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2964,7 +2964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.191}
   m_SizeDelta: {x: 266, y: 472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1637577525
@@ -3156,7 +3156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.007, y: -1.053}
+  m_AnchoredPosition: {x: 0.007, y: -5.99}
   m_SizeDelta: {x: 100, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651693354
@@ -3428,7 +3428,7 @@ GameObject:
   - component: {fileID: 1836729745}
   - component: {fileID: 1836729747}
   - component: {fileID: 1836729746}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3584,7 +3584,7 @@ GameObject:
   - component: {fileID: 2005652982}
   - component: {fileID: 2005652983}
   - component: {fileID: 2005652984}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3687,7 +3687,7 @@ GameObject:
   - component: {fileID: 2053147477}
   - component: {fileID: 2053147478}
   - component: {fileID: 2053147479}
-  - component: {fileID: 2053147481}
+  - component: {fileID: 2053147480}
   m_Layer: 8
   m_Name: player_snowman
   m_TagString: Player
@@ -3703,8 +3703,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2053147475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -173, z: 0}
-  m_LocalScale: {x: 25, y: 25, z: 1}
+  m_LocalPosition: {x: 0, y: -163.9, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 1651693353}
   m_Father: {fileID: 1596725497}
@@ -3746,7 +3746,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: e0511a4867fed884face8c201d4a8b4e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9373532cd6821046808d0ef64e89b91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3769,9 +3769,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 2
-  m_AngularDrag: 1
-  m_GravityScale: 0
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3788,11 +3788,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e4cedc3f6f7784e8a1950adcadf02d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 500
+  jumpForce: 200
   grounded: 1
   throwForce: 0.1
---- !u!61 &2053147481
-BoxCollider2D:
+--- !u!70 &2053147480
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3803,19 +3803,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1, y: 1.45}
-    newSize: {x: 1.1, y: 1.45}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1, y: 1.45}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.01352147, y: 0}
+  m_Size: {x: 3.8247907, y: 10.16}
+  m_Direction: 0
 --- !u!1 &2089053835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3816,7 @@ GameObject:
   - component: {fileID: 2089053836}
   - component: {fileID: 2089053838}
   - component: {fileID: 2089053837}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: txt_Best
   m_TagString: Untagged
   m_Icon: {fileID: 0}

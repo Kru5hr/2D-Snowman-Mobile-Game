@@ -45,7 +45,7 @@ public class Controls : MonoBehaviour
             grounded = true;
         }
 
-        if (Input.touchCount == 1 && grounded == true)
+        if (Input.touchCount == 1 || Input.GetKey(KeyCode.Space) && grounded == true)
         {
             GetComponent<Rigidbody2D>().AddForce(transform.up * jumpForce);
             grounded = false;
