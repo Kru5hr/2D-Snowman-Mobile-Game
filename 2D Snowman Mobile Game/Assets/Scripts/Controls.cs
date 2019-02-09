@@ -40,16 +40,16 @@ public class Controls : MonoBehaviour
 
 
         //JUMP
-        if (!grounded && GetComponent<Rigidbody2D>().velocity.y == 0)
-        {
-            grounded = true;
-        }
+        //if (!grounded && GetComponent<Rigidbody2D>().velocity.y == 0)
+        //{
+        //    grounded = true;
+        //}
 
-        if (Input.touchCount == 1 || Input.GetKey(KeyCode.Space) && grounded == true)
-        {
-            GetComponent<Rigidbody2D>().AddForce(transform.up * jumpForce);
-            grounded = false;
-        }
+        //if (Input.touchCount == 1 || Input.GetKey(KeyCode.Space) && grounded == true)
+        //{
+        //    GetComponent<Rigidbody2D>().AddForce(transform.up * jumpForce);
+        //    grounded = false;
+        //}
 
         //********KEYBOARD CONTROLS****************
 
