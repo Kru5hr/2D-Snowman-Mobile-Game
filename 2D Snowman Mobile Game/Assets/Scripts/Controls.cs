@@ -7,14 +7,26 @@ public class Controls : MonoBehaviour
     Vector2 startPos, endPos, direction; //touch start position, touch end position, swipe direction
     float touchTimeStart, touchTimeFinish, timeInterval; //calculate swipe time
 
-    public float jumpForce = 500f;
+    public float jumpForce;
     public bool grounded = true;
+    public bool jumpAllowed = false;
+    public Rigidbody2D rb;
 
     [Range(0.05f, 1f)]               //slide for inspector window
     public float throwForce = 0.03f; //to control force throw
-    
-	// Update is called once per frame
-	void Update ()
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void FixedUpdate()
+    {
+        JumpIfAllowed();
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         //*************TOUCH CONTROLS*********************
 
@@ -35,9 +47,13 @@ public class Controls : MonoBehaviour
 
             direction = startPos - endPos;
 
-            GetComponent<Rigidbody2D>().AddForce(-direction / timeInterval * throwForce);
-        }
+            rb.AddForce(-direction / timeInterval * throwForce);
 
+            if (endPos.y > startPos.y && rb.velocity.y == 0)
+            {
+                jumpAllowed = true;
+            }
+        }
 
         //JUMP
         //if (!grounded && GetComponent<Rigidbody2D>().velocity.y == 0)
@@ -55,13 +71,22 @@ public class Controls : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            GetComponent<Rigidbody2D>().AddForce(Vector3.left);
+            rb.AddForce(Vector3.left);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            GetComponent<Rigidbody2D>().AddForce(Vector3.right);
+            rb.AddForce(Vector3.right);
         }
             
+    }
+
+    void JumpIfAllowed()
+    {
+        if (jumpAllowed)
+        {
+            rb.AddForce(Vector2.up * jumpForce);
+            jumpAllowed = false;
+        }
     }
 }
