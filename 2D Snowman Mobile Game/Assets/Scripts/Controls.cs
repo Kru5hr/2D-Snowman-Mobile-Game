@@ -8,8 +8,8 @@ public class Controls : MonoBehaviour
     float touchTimeStart, touchTimeFinish, timeInterval; //calculate swipe time
 
     public float jumpForce;
-    public bool grounded = true;
     public bool jumpAllowed = false;
+    public bool isGrounded;
     public Rigidbody2D rb;
 
     [Range(0.05f, 1f)]               //slide for inspector window
@@ -26,7 +26,7 @@ public class Controls : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update ()
+    void Update()
     {
         //*************TOUCH CONTROLS*********************
 
@@ -55,18 +55,6 @@ public class Controls : MonoBehaviour
             }
         }
 
-        //JUMP
-        //if (!grounded && GetComponent<Rigidbody2D>().velocity.y == 0)
-        //{
-        //    grounded = true;
-        //}
-
-        //if (Input.touchCount == 1 || Input.GetKey(KeyCode.Space) && grounded == true)
-        //{
-        //    GetComponent<Rigidbody2D>().AddForce(transform.up * jumpForce);
-        //    grounded = false;
-        //}
-
         //********KEYBOARD CONTROLS****************
 
         if (Input.GetKey(KeyCode.A))
@@ -78,7 +66,12 @@ public class Controls : MonoBehaviour
         {
             rb.AddForce(Vector3.right);
         }
-            
+
+        if (Input.GetKey(KeyCode.Space) && isGrounded == true)
+        {
+            jumpAllowed = true;
+        }
+
     }
 
     void JumpIfAllowed()
@@ -87,6 +80,23 @@ public class Controls : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce);
             jumpAllowed = false;
+            isGrounded = false;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+
+    //private void OnCollisionExit2D(Collision2D col)
+    //{
+    //    if (col.gameObject.tag == "Ground")
+    //    {
+    //        isGrounded = false;
+    //    }
+    //}
 }

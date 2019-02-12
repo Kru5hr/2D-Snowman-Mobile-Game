@@ -37,6 +37,7 @@ public class HealthBar : MonoBehaviour
             PauseButton.SetActive(false);
             HUD.SetActive(false);
             Time.timeScale = 0f;
+            AudioListener.volume = 0.045f;
         }
 	}
 }
