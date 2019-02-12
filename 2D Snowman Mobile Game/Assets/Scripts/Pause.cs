@@ -13,13 +13,13 @@ public class Pause : MonoBehaviour
         {
             Time.timeScale = 1f;
             isPaused = false;
-            AudioListener.pause = false;
+            //AudioListener.pause = false;
         }
         else
         {
             Time.timeScale = 0f;
             isPaused = true;
-            AudioListener.pause = true;
+            //AudioListener.pause = true;
         }
     }
 }

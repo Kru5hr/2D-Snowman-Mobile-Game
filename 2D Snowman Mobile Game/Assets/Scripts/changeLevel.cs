@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class changeLevel : MonoBehaviour
-{
-    public void loadLevel(string level)
+{ 
+    public void loadLevel(string levelName)
     {
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene(levelName);
     }
 }

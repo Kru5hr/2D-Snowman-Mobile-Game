@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Controls : MonoBehaviour
 {
     Vector2 startPos, endPos, direction; //touch start position, touch end position, swipe direction
@@ -11,6 +12,9 @@ public class Controls : MonoBehaviour
     public bool jumpAllowed = false;
     public bool isGrounded;
     public Rigidbody2D rb;
+    AudioSource soundAudio;
+    public AudioClip jump;
+    public AudioClip slide;
 
     [Range(0.05f, 1f)]               //slide for inspector window
     public float throwForce = 0.03f; //to control force throw
@@ -18,6 +22,7 @@ public class Controls : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        soundAudio = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -60,11 +65,15 @@ public class Controls : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(Vector3.left);
+            soundAudio.clip = slide;
+            soundAudio.Play();
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(Vector3.right);
+            soundAudio.clip = slide;
+            soundAudio.Play();
         }
 
         if (Input.GetKey(KeyCode.Space) && isGrounded == true)
@@ -81,6 +90,8 @@ public class Controls : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
             jumpAllowed = false;
             isGrounded = false;
+            soundAudio.clip = jump;
+            soundAudio.Play();
         }
     }
 
@@ -91,12 +102,4 @@ public class Controls : MonoBehaviour
             isGrounded = true;
         }
     }
-
-    //private void OnCollisionExit2D(Collision2D col)
-    //{
-    //    if (col.gameObject.tag == "Ground")
-    //    {
-    //        isGrounded = false;
-    //    }
-    //}
 }
