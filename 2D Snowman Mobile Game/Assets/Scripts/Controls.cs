@@ -52,8 +52,6 @@ public class Controls : MonoBehaviour
 
             rb.AddForce(-direction / timeInterval * throwForce);
 
-            //source2.Play();
-
             if (endPos.y > startPos.y && isGrounded == true)
             {
                 jumpAllowed = true;

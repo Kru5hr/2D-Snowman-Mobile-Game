@@ -118,6 +118,7 @@
     <Compile Include="Assets\Scripts\SmoothMoveSwipe.cs" />
     <Compile Include="Assets\Scripts\snowflakeManager.cs" />
     <Compile Include="Assets\Scripts\snowflakeScore.cs" />
+    <Compile Include="Assets\Scripts\TapToStart.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\tmpScore.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
