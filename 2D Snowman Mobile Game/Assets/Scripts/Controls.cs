@@ -12,9 +12,8 @@ public class Controls : MonoBehaviour
     public bool jumpAllowed = false;
     public bool isGrounded;
     public Rigidbody2D rb;
-    AudioSource soundAudio;
-    public AudioClip jump;
-    public AudioClip slide;
+    public AudioSource source1;
+    public AudioSource source2;
 
     [Range(0.05f, 1f)]               //slide for inspector window
     public float throwForce = 0.03f; //to control force throw
@@ -22,7 +21,6 @@ public class Controls : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        soundAudio = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -31,7 +29,7 @@ public class Controls : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         //*************TOUCH CONTROLS*********************
 
@@ -54,11 +52,9 @@ public class Controls : MonoBehaviour
 
             rb.AddForce(-direction / timeInterval * throwForce);
 
-<<<<<<< HEAD
+            //source2.Play();
+
             if (endPos.y > startPos.y && isGrounded == true)
-=======
-            if (endPos.y > startPos.y && rb.velocity.y == 0)
->>>>>>> parent of 00385c9... fixed sound effects
             {
                 jumpAllowed = true;
             }
@@ -69,15 +65,13 @@ public class Controls : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(Vector3.left);
-            soundAudio.clip = slide;
-            soundAudio.Play();
+            source2.Play();
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(Vector3.right);
-            soundAudio.clip = slide;
-            soundAudio.Play();
+            source2.Play();
         }
 
         if (Input.GetKey(KeyCode.Space) && isGrounded == true)
@@ -94,8 +88,7 @@ public class Controls : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
             jumpAllowed = false;
             isGrounded = false;
-            soundAudio.clip = jump;
-            soundAudio.Play();
+            source1.Play();
         }
     }
 
