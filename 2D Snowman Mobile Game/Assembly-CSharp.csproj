@@ -109,6 +109,7 @@
     <Compile Include="Assets\Scripts\changeLevel.cs" />
     <Compile Include="Assets\Scripts\Controls.cs" />
     <Compile Include="Assets\Scripts\DestroyOverTime.cs" />
+    <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\HBarIndicator.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
