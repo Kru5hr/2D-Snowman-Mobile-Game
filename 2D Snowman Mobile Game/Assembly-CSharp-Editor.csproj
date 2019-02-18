@@ -96,16 +96,16 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>F:/15078113/2D-Snowman-Mobile-Game-00385c9ec33fcfced5d08d6daa600b7c813b79b6/2D Snowman Mobile Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>F:/15078113/2D-Snowman-Mobile-Game/2D Snowman Mobile Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/15078113/2D-Snowman-Mobile-Game-00385c9ec33fcfced5d08d6daa600b7c813b79b6/2D Snowman Mobile Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/15078113/2D-Snowman-Mobile-Game/2D Snowman Mobile Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/15078113/2D-Snowman-Mobile-Game-00385c9ec33fcfced5d08d6daa600b7c813b79b6/2D Snowman Mobile Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/15078113/2D-Snowman-Mobile-Game/2D Snowman Mobile Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/15078113/2D-Snowman-Mobile-Game-00385c9ec33fcfced5d08d6daa600b7c813b79b6/2D Snowman Mobile Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/15078113/2D-Snowman-Mobile-Game/2D Snowman Mobile Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
