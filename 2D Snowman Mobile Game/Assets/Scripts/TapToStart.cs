@@ -1,22 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TapToStart : MonoBehaviour
 {
-	// Use this for initialization
+    public GameObject Panel;
+    
+    // Use this for initialization
 	void Start ()
     {
         Time.timeScale = 0;
+        Panel.SetActive(true);
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	public void StartGame ()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
             Time.timeScale = 1;
-        }
-        
     }
 }

@@ -87,6 +87,7 @@ public class Controls : MonoBehaviour
             jumpAllowed = false;
             isGrounded = false;
             source1.Play();
+            HealthBar.health -= 5f;
         }
     }
 

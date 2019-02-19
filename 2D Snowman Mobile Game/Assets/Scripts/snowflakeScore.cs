@@ -12,10 +12,21 @@ public class snowflakeScore : MonoBehaviour
     AudioSource soundAudio;
     public AudioClip ting;
     public AudioClip sball_impact;
+    ParticleSystem pSystem;
+    public float emValue1 = 0.5f;
+    public float emValue2 = 5f;
+    public float emValue3 = 10f;
+    public float emValue4 = 15f;
+    public float emValue5 = 20f;
 
-    private void Start()
+    public void Start()
     {
         soundAudio = GetComponent<AudioSource>();
+        pSystem = GetComponent<ParticleSystem>();
+
+        var em = pSystem.emission;
+
+        em.rateOverTime = emValue1;
     }
 
     public void OnParticleCollision(GameObject col)
@@ -35,6 +46,31 @@ public class snowflakeScore : MonoBehaviour
             HealthBar.health += 10f;
             soundAudio.clip = ting;
             soundAudio.Play();
+        }
+    }
+
+    void Update()
+    {
+        var em = pSystem.emission;
+
+        if (tmpScore.scoreAmount == 3)
+        {
+            em.rateOverTime = emValue2;
+        }
+
+        if (tmpScore.scoreAmount == 10)
+        {
+            em.rateOverTime = emValue3;
+        }
+
+        if (tmpScore.scoreAmount == 15)
+        {
+            em.rateOverTime = emValue4;
+        }
+
+        if (tmpScore.scoreAmount == 20)
+        {
+            em.rateOverTime = emValue5;
         }
     }
 }

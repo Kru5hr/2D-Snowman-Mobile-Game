@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
-    bool isPaused = false;
+    bool isPaused = true;
 
     public void pauseGame()
     {
@@ -13,13 +13,11 @@ public class Pause : MonoBehaviour
         {
             Time.timeScale = 1f;
             isPaused = false;
-            //AudioListener.pause = false;
         }
         else
         {
             Time.timeScale = 0f;
             isPaused = true;
-            //AudioListener.pause = true;
         }
     }
 }
