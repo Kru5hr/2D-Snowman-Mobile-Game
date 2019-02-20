@@ -7,14 +7,12 @@ public class Controls : MonoBehaviour
 {
     Vector2 startPos, endPos, direction; //touch start position, touch end position, swipe direction
     float touchTimeStart, touchTimeFinish, timeInterval; //calculate swipe time
-
     public float jumpForce;
     public bool jumpAllowed = false;
     public bool isGrounded;
     public Rigidbody2D rb;
     public AudioSource source1;
     public AudioSource source2;
-
     [Range(0.05f, 1f)]               //slide for inspector window
     public float throwForce = 0.03f; //to control force throw
 
@@ -27,12 +25,10 @@ public class Controls : MonoBehaviour
     {
         JumpIfAllowed();
     }
-
     // Update is called once per frame
-    private void Update()
+    void Update()
     {
         //*************TOUCH CONTROLS*********************
-
         //SLIDE
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) //once touch input started
         {
@@ -58,6 +54,11 @@ public class Controls : MonoBehaviour
             }
         }
 
+        if (Input.touchCount == 1 && startPos == endPos && isGrounded == true)
+        {
+            jumpAllowed = true;
+        }
+
         //********KEYBOARD CONTROLS****************
 
         if (Input.GetKey(KeyCode.A))
@@ -76,6 +77,8 @@ public class Controls : MonoBehaviour
         {
             jumpAllowed = true;
         }
+
+        JumpIfAllowed();
 
     }
 
