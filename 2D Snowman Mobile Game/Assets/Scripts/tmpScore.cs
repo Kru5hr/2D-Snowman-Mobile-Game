@@ -30,12 +30,5 @@ public class tmpScore : MonoBehaviour
             PlayerPrefs.SetInt("Highscore", scoreAmount);
             hscore.text = scoreAmount.ToString();
         }
-
-
-        
-        //if (tmpScore.scoreAmount == 5)
-        //{
-            //snowflakeManager.spawnRateTime = 0.5f;
-        //}
 	}
 }
