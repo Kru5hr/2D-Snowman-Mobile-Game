@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
-public class snowflakeScore : MonoBehaviour
+public class SnowflakeScore : MonoBehaviour
 {
     public int damageToGive;
     public Transform hitPoint;
@@ -14,10 +14,10 @@ public class snowflakeScore : MonoBehaviour
     public AudioClip sball_impact;
     ParticleSystem pSystem;
     public float emValue1 = 0.5f;
-    public float emValue2 = 5f;
-    public float emValue3 = 10f;
-    public float emValue4 = 15f;
-    public float emValue5 = 20f;
+    public float emValue2 = 0.75f;
+    public float emValue3 = 1f;
+    public float emValue4 = 2f;
+    public float emValue5 = 5f;
 
     public void Start()
     {
@@ -32,43 +32,45 @@ public class snowflakeScore : MonoBehaviour
     public void OnParticleCollision(GameObject col)
     {
 
-        if (col.gameObject.name == "ground")
+        if (col.gameObject.tag == "Ground")
         {
             HealthBar.health -= 10f;
+            Debug.Log(HealthBar.health);
             soundAudio.clip = sball_impact;
             soundAudio.Play();
             var clone = (GameObject)Instantiate(hText, hitPoint.position, Quaternion.Euler(Vector3.zero));
             clone.GetComponent<HBarIndicator>().damageNumber = damageToGive;
         }
-        else if (col.gameObject.name == "player_snowman")
+        else if (col.gameObject.tag == "Player")
         {
-            tmpScore.scoreAmount += 1;
+            TmpScore.scoreAmount += 1;
             HealthBar.health += 10f;
+            Debug.Log(HealthBar.health);
             soundAudio.clip = ting;
             soundAudio.Play();
         }
     }
 
-    void Update()
+    public void Update()
     {
         var em = pSystem.emission;
 
-        if (tmpScore.scoreAmount == 3)
+        if (TmpScore.scoreAmount == 5)
         {
             em.rateOverTime = emValue2;
         }
 
-        if (tmpScore.scoreAmount == 10)
+        if (TmpScore.scoreAmount == 10)
         {
             em.rateOverTime = emValue3;
         }
 
-        if (tmpScore.scoreAmount == 15)
+        if (TmpScore.scoreAmount == 25)
         {
             em.rateOverTime = emValue4;
         }
 
-        if (tmpScore.scoreAmount == 20)
+        if (TmpScore.scoreAmount == 50)
         {
             em.rateOverTime = emValue5;
         }

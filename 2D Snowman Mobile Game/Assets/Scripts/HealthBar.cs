@@ -7,14 +7,15 @@ using TMPro;
 public class HealthBar : MonoBehaviour
 {
     Image healthBar;
-    float maxHealth = 100f;
+    public float maxHealth = 100f;
+    public float minHealth = 0f;
     public static float health;
     public GameObject GameOverMenu;
     public GameObject PauseButton;
     public GameObject HUD;
 
     // Use this for initialization
-    void Start ()
+    public void Start ()
     {
         GameOverMenu.SetActive(false);
         healthBar = GetComponent<Image>();
@@ -23,16 +24,16 @@ public class HealthBar : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	public void Update ()
     {
         healthBar.fillAmount = health / maxHealth;
 
-        if (HealthBar.health > 100)
+        if (health >= maxHealth)
         {
-            HealthBar.health = 100;
+            health = maxHealth;
         }
 
-        if (HealthBar.health == 0)
+        if (health <= minHealth)
         {
             GameOverMenu.SetActive(true);
             PauseButton.SetActive(false);
