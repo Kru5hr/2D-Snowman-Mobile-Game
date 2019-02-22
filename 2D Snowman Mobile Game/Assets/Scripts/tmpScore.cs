@@ -30,5 +30,11 @@ public class tmpScore : MonoBehaviour
             PlayerPrefs.SetInt("Highscore", scoreAmount);
             hscore.text = scoreAmount.ToString();
         }
-	}
+    }
+
+    public void ResetScore()
+    {
+        PlayerPrefs.SetInt("Highscore", 0);
+        hscore.text = scoreAmount.ToString();
+    }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Snowflake
   - Ground
+  - banner
   layers:
   - Default
   - TransparentFX

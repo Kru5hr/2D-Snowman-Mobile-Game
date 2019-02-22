@@ -13,6 +13,7 @@ public class Controls : MonoBehaviour
     public Rigidbody2D rb;
     public AudioSource source1;
     public AudioSource source2;
+    public AudioSource source3;
     [Range(0.05f, 1f)]               //slide for inspector window
     public float throwForce = 0.03f; //to control force throw
 
@@ -61,19 +62,27 @@ public class Controls : MonoBehaviour
 
         //********KEYBOARD CONTROLS****************
 
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            source2.Play();
+        }
+
         if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(Vector3.left);
-            source2.Play();
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            source3.Play();
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(Vector3.right);
-            source2.Play();
         }
 
-        if (Input.GetKey(KeyCode.Space) && isGrounded == true)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             jumpAllowed = true;
         }

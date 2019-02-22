@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthBar : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class HealthBar : MonoBehaviour
     public GameObject GameOverMenu;
     public GameObject PauseButton;
     public GameObject HUD;
-    
+
     // Use this for initialization
-	void Start ()
+    void Start ()
     {
         GameOverMenu.SetActive(false);
         healthBar = GetComponent<Image>();
@@ -37,7 +38,6 @@ public class HealthBar : MonoBehaviour
             PauseButton.SetActive(false);
             HUD.SetActive(false);
             Time.timeScale = 0f;
-            //AudioListener.volume = 0.045f;
         }
 	}
 }
