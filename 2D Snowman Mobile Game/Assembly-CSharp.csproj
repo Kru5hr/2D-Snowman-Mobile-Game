@@ -108,7 +108,7 @@
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\changeLevel.cs" />
-    <Compile Include="Assets\Scripts\Controls.cs" />
+    <Compile Include="Assets\Scripts\Controls_dup.cs" />
     <Compile Include="Assets\Scripts\DestroyOverTime.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\HBarIndicator.cs" />

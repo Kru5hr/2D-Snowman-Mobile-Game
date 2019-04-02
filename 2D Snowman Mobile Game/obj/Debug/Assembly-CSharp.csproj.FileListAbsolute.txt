@@ -167,6 +167,6 @@ E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\Temp\bin\De
 E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\obj\Debug\Assembly-CSharp.dll
 E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\obj\Debug\Assembly-CSharp.pdb
+E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\Temp\bin\Debug\UnityEditor.UI.dll
 E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\Temp\bin\Debug\UnityEditor.UI.xml
-E:\Users\Jake\Documents\GitHub\2D-Mobile-Game\2D Snowman Mobile Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
