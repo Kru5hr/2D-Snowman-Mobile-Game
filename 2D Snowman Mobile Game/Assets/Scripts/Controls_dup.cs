@@ -106,7 +106,7 @@ public class Controls_dup : MonoBehaviour
             jumpAllowed = false;
             isGrounded = false;
             source1.Play();
-            HealthBar.health -= 10f;
+            //HealthBar.health -= 10f;
             Debug.Log(HealthBar.health);
         }
     }
