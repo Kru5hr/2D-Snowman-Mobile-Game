@@ -43,7 +43,6 @@ public class SnowflakeScore : MonoBehaviour
         if (col.gameObject.tag == "Ground")
         {
             HealthBar.health -= 10f;
-            //Debug.Log(HealthBar.health);
             soundAudio.clip = sball_impact;
             soundAudio.Play();
             var clone = (GameObject)Instantiate(hText, hitPoint.position, Quaternion.Euler(Vector3.zero));
@@ -53,7 +52,6 @@ public class SnowflakeScore : MonoBehaviour
         {
             TmpScore.scoreAmount += 1;
             HealthBar.health += 5f;
-            //Debug.Log(HealthBar.health);
             soundAudio.clip = ting;
             soundAudio.Play();
         }

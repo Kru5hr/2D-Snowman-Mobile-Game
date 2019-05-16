@@ -16,7 +16,7 @@ public class Controls_dup : MonoBehaviour
     public AudioSource source3;
     [Range(0.05f, 1f)]               //slide for inspector window
     public float throwForce = 0.03f; //to control force throw
-
+    public GameObject smokePuff;
     private Touch touch;
     
 
@@ -72,16 +72,19 @@ public class Controls_dup : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             source2.Play();
+            Instantiate(smokePuff, transform.position, Quaternion.identity);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(Vector3.left);
+            
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
             source3.Play();
+            Instantiate(smokePuff, transform.position, Quaternion.identity);
         }
 
         if (Input.GetKey(KeyCode.D))
@@ -107,7 +110,7 @@ public class Controls_dup : MonoBehaviour
             isGrounded = false;
             source1.Play();
             HealthBar.health -= 10f;
-            Debug.Log(HealthBar.health);
+            //Debug.Log(HealthBar.health);
         }
     }
 
